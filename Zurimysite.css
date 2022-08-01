@@ -1,0 +1,286 @@
+body {
+    background-color:  whitesmoke;
+    clear: both;
+
+   margin-bottom: 50px;
+}
+
+/* Landing page */
+
+
+
+/*navbar */
+.nav{
+
+
+    background-color: silver;
+    position: fixed;
+    width: 75px;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    float: left;
+    left:0px;
+
+    }
+
+.nav  a {
+color: black;
+font-size: medium;
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: block;
+padding: 15px;
+margin-right: 0px;
+text-decoration: none;
+display:block;
+    }
+
+.mybody{
+    text-align:left;
+    padding-left: 5%;
+
+}
+
+.container-fluid{
+ padding-right: 50px;
+
+ }
+
+
+ div img{
+
+    /* max-height: 30em;
+    padding-right: 50em; */
+    height: 100vh;
+    padding-bottom: 5%;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+div i {
+    display: flex;
+   color: black;
+
+}
+
+a{
+    margin-right:10px;
+}
+
+
+
+
+/*------footer------ */
+.down-footer{
+    background-color:rgb(210, 218, 220);
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    height:30px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+/*.........ABOUT ME BEGINS*/
+#personalme{
+    background-color: cyan;
+    text-align: center;
+
+}
+
+.shortex{
+
+    padding-left: 10em;
+}
+
+/* .tablue{
+
+    width: 200;
+    float: right;
+    margin:right;
+
+
+
+} */
+/* table{
+    border:  5px solid;
+    background-color:beige;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th,td{
+
+margin: 5px;
+text-align: left;
+padding: 20px;
+}
+tr:nth-child(even){
+    background-color: gray;
+} */
+
+img{
+    width: 20.em;
+    height: 250px;
+    padding: 5px;
+    float: right;
+}
+
+.Career{
+color: gray;
+
+}
+
+.mycontainer{
+    padding-left: 100px;
+}
+/* .mytable{
+    padding-left: 100px;
+} */
+
+/*...............CONTACT PAGE CSS...................*/
+
+.text-gradients{
+    font-size: 25px;
+    padding-left: 4em;
+    margin-top: 10px;
+    font-weight: 100px;
+    background: -webkit-repeating-linear-gradient(black,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+
+
+
+}
+
+.lg{
+    background: linear-gradient(90deg,whitesmoke,rgb(181, 161, 161));
+}
+
+.formheading{
+    float: right;
+    margin-right:35%;
+    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    margin-top: 1px;
+}
+
+.proimgages img,
+#proimgages>img {
+    background: silver;
+    transform: skew(10deg);
+
+
+}
+
+
+.wrapper{
+    padding: 10px ;
+    height: 90vh;
+    width: 70%;
+    background:#fff;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+
+
+}
+
+.wrapper .input-data {
+    height: 90px;
+    width: 50%;
+    position: relative
+}
+
+.wrapper .input-data input{
+    width: 200%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid silver;
+    outline: none;
+
+}
+
+.wrapper .input-data label{
+position: relative;
+bottom: 30px;
+padding-left: 5px;
+transition: all 0.2sec ease-in-out;
+pointer-events: none;
+color: grey;
+font-size: 15px;
+
+
+
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+transform: translateY(-20px);
+}
+
+
+#gender{
+
+    width:200%; 
+    outline: none;
+    height: 40%;
+}
+
+#message{
+    width: 100%;
+    height: 20vh;
+    outline: none;
+
+}
+
+#message2{
+    width: 100%;
+    height: 20vh;
+    outline: none;
+    padding-bottom: 80px;
+
+
+
+}
+
+#regbtn{
+    
+    margin-bottom: 50%;
+}
+ button[type=submit]{
+
+    background-color:silver ;
+    top: 50px;
+    position: relative;
+    width: 40%;
+    height: 45px;
+    border-radius: 20px;
+
+}
+
+button[type=submit]:hover{
+    background-color: rgb(123, 117, 110);
+}
+
+input[type=text]{
+    margin-top: auto;
+}
+
+.btncontactme{
+    color: red;
+    background-color: bisque;
+    width: 40%;
+    height: 45px;
+    border-radius: 20px;
+
+
+}
